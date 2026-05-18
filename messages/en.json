@@ -1,0 +1,76 @@
+{
+  "metadata": {
+    "title": "CareerCopilot",
+    "description": "A bilingual AI career assistant for international students seeking jobs abroad."
+  },
+  "navigation": {
+    "logo": "CareerCopilot",
+    "languageToggle": "Language toggle",
+    "english": "EN",
+    "chinese": "中文",
+    "separator": "|",
+    "getStarted": "Get Started",
+    "start": "Start"
+  },
+  "landing": {
+    "hero": {
+      "badge": "Built for international students",
+      "title": "Land Your Dream Job Abroad",
+      "subtitle": "CareerCopilot helps international students tailor resumes, practice interviews, and plan confident job searches abroad.",
+      "resumeButton": "Analyze My Resume",
+      "interviewButton": "Try Interview Coach"
+    },
+    "preview": {
+      "title": "Career readiness snapshot",
+      "description": "Turn uncertainty into a focused next step.",
+      "metricOneValue": "ATS",
+      "metricOneLabel": "Resume keyword guidance",
+      "metricTwoValue": "STAR",
+      "metricTwoLabel": "Interview answer practice"
+    },
+    "features": {
+      "tryNow": "Try now",
+      "resumeAnalyzer": {
+        "title": "Resume Analyzer",
+        "description": "ATS optimization & keyword matching"
+      },
+      "interviewCoach": {
+        "title": "Interview Coach",
+        "description": "AI mock interviews & STAR framework"
+      },
+      "careerPlanner": {
+        "title": "Career Planner",
+        "description": "Personalized paths & skill gap analysis"
+      }
+    },
+    "painPoints": {
+      "title": "Common job search blockers",
+      "subtitle": "Focused tools for the moments that slow international students down.",
+      "items": {
+        "resumeFormatting": {
+          "title": "Resume formatting issues",
+          "description": "Keep structure clear, concise, and aligned with global hiring expectations."
+        },
+        "atsContent": {
+          "title": "ATS unfriendly content",
+          "description": "Improve keywords and role fit before applications reach recruiters."
+        },
+        "workplaceEnglish": {
+          "title": "Workplace English barriers",
+          "description": "Practice professional phrasing for interviews and daily communication."
+        },
+        "careerDirection": {
+          "title": "Career direction confusion",
+          "description": "Map goals, gaps, and realistic next steps for target markets."
+        }
+      }
+    }
+  },
+  "comingSoon": {
+    "message": "Coming Soon"
+  },
+  "footer": {
+    "copyright": "© 2026 CareerCopilot. All rights reserved.",
+    "github": "GitHub"
+  }
+}

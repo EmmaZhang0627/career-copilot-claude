@@ -1,0 +1,76 @@
+{
+  "metadata": {
+    "title": "CareerCopilot",
+    "description": "面向国际学生海外求职的双语 AI 求职助手。"
+  },
+  "navigation": {
+    "logo": "CareerCopilot",
+    "languageToggle": "语言切换",
+    "english": "EN",
+    "chinese": "中文",
+    "separator": "|",
+    "getStarted": "开始使用",
+    "start": "开始"
+  },
+  "landing": {
+    "hero": {
+      "badge": "为国际学生打造",
+      "title": "AI 求职助手",
+      "subtitle": "CareerCopilot 帮助国际学生优化简历、练习面试，并更有方向地规划海外求职。",
+      "resumeButton": "分析我的简历",
+      "interviewButton": "体验面试教练"
+    },
+    "preview": {
+      "title": "求职准备概览",
+      "description": "把不确定变成清晰的下一步。",
+      "metricOneValue": "ATS",
+      "metricOneLabel": "简历关键词建议",
+      "metricTwoValue": "STAR",
+      "metricTwoLabel": "面试回答练习"
+    },
+    "features": {
+      "tryNow": "立即体验",
+      "resumeAnalyzer": {
+        "title": "简历分析器",
+        "description": "ATS 优化与关键词匹配"
+      },
+      "interviewCoach": {
+        "title": "面试教练",
+        "description": "AI 模拟面试与 STAR 框架"
+      },
+      "careerPlanner": {
+        "title": "职业规划器",
+        "description": "个性化路径与技能差距分析"
+      }
+    },
+    "painPoints": {
+      "title": "常见求职阻碍",
+      "subtitle": "为国际学生最容易卡住的环节提供清晰支持。",
+      "items": {
+        "resumeFormatting": {
+          "title": "简历格式问题",
+          "description": "让结构更清晰、精炼，并符合海外招聘习惯。"
+        },
+        "atsContent": {
+          "title": "内容不适合 ATS",
+          "description": "在投递前提升关键词覆盖和岗位匹配度。"
+        },
+        "workplaceEnglish": {
+          "title": "职场英语障碍",
+          "description": "练习面试和日常沟通中的专业表达。"
+        },
+        "careerDirection": {
+          "title": "职业方向迷茫",
+          "description": "梳理目标、差距和目标市场中的可执行下一步。"
+        }
+      }
+    }
+  },
+  "comingSoon": {
+    "message": "即将推出"
+  },
+  "footer": {
+    "copyright": "© 2026 CareerCopilot. 保留所有权利。",
+    "github": "GitHub"
+  }
+}
