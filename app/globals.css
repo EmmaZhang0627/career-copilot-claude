@@ -1,0 +1,87 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  :root {
+    --teal-900: #04342c;
+    --teal-800: #085041;
+    --teal-700: #0f6e56;
+    --teal-500: #1d9e75;
+    --teal-300: #5dcaa5;
+    --teal-100: #9fe1cb;
+    --teal-50: #e1f5ee;
+    --ink: #0c1c17;
+    --ink-60: rgba(12, 28, 23, 0.6);
+    --ink-20: rgba(12, 28, 23, 0.1);
+    --white: #fafcfb;
+    --amber: #d99220;
+    --red: #c24141;
+    --font-dm-sans: "DM Sans";
+    --font-instrument-serif: "Instrument Serif";
+  }
+
+  * {
+    border-color: var(--ink-20);
+  }
+
+  html {
+    scroll-behavior: smooth;
+  }
+
+  body {
+    min-height: 100vh;
+    background: var(--white);
+    color: var(--ink);
+    font-family: var(--font-dm-sans), ui-sans-serif, system-ui, sans-serif;
+    letter-spacing: 0;
+    text-rendering: geometricPrecision;
+  }
+
+  h1,
+  h2 {
+    font-family: var(--font-instrument-serif), Georgia, serif;
+    font-weight: 400;
+    letter-spacing: 0;
+  }
+
+  button,
+  input,
+  textarea,
+  select,
+  nav {
+    font-family: var(--font-dm-sans), ui-sans-serif, system-ui, sans-serif;
+  }
+
+  ::selection {
+    background: var(--teal-100);
+    color: var(--ink);
+  }
+}
+
+@layer utilities {
+  .career-grid-bg {
+    background-image:
+      linear-gradient(rgba(12, 28, 23, 0.035) 1px, transparent 1px),
+      linear-gradient(90deg, rgba(12, 28, 23, 0.035) 1px, transparent 1px),
+      radial-gradient(circle at 18% 12%, rgba(29, 158, 117, 0.22), transparent 34%),
+      radial-gradient(circle at 82% 20%, rgba(93, 202, 165, 0.18), transparent 30%);
+    background-size: 38px 38px, 38px 38px, auto, auto;
+  }
+
+  .floating-preview-card {
+    animation: float-card 6s ease-in-out infinite;
+    transform: rotate(1.5deg);
+  }
+
+  @keyframes float-card {
+    0%,
+    100% {
+      transform: translateY(0) rotate(1.5deg);
+    }
+
+    50% {
+      transform: translateY(-8px) rotate(1.5deg);
+    }
+  }
+}
